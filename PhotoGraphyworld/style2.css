@@ -1,0 +1,227 @@
+body{
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+header::before{
+    content: "";
+    background: url('images/bg.jpg') no-repeat center center/cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+h1{
+	line-height:0%;
+	font-family: 'Lobster', cursive;
+    color: coral;
+}
+h3{
+	
+	font-size: 2.2rem;
+    font-family: 'Lobster', cursive;
+    color: coral;
+}
+h3 span{
+    color: black;
+}
+h4{
+    margin-left: 300px;
+    margin-right: 300px;
+	font-size:1.4rem;
+    font-family: 'Lobster', cursive;
+}
+.navigation{
+    font-size: 20px;
+    display: flex;
+}
+li{
+    list-style: none;
+    margin-right: 30px;
+    margin-top: 20px;
+}
+li a{
+    padding: 2px 23px;
+    font-family: 'Lobster', cursive;
+    text-decoration: none;
+    color: black;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+li a:hover{
+    background-color: coral;
+    color: black;
+    transition: 0.6s ease;
+}
+li a.active{
+    border: 2px solid black;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: right;
+    margin-right: 100px;
+}
+.gallery img{
+    margin-top: 40px;
+    width: 250px;
+    height: 250px;
+}
+.gallery img:hover{
+    width: 252px;
+    height: 252px;
+    transition: 0.1s ease;
+}
+.logo img{
+    width: 190px;
+    height: 190px;
+}
+.visible{height:55%;
+	margin-top:20px;
+	margin-left:15px;
+	margin-bottom:0px;
+	opacity:0.5;
+}
+.button{
+    display: flex;
+    flex-direction: column;
+    margin-right: 60px;
+}
+.btn{
+    font-family: 'Lobster', cursive;
+    color: coral;
+    font-size: 1.2rem;
+    padding: 10px 30px;
+    border-radius: 25px;
+    margin: 5px;
+    cursor: pointer;
+    border: 2px solid coral;
+}
+.btn:hover{
+    color: black;
+    background-color: coral;
+    transition: 0.4s ease;
+}
+.images{
+    width: fit-content;
+}
+
+
+.slider-carousel{
+    background: url(images/yalaparkbg1.jpg) no-repeat center center/cover;
+     border: 7px solid white;
+     border-radius: 10px;
+     display: flex;
+     justify-content: center;
+     margin-left: 80px;
+     margin-right: 80px;
+     height: 380px;
+}
+.slider-carousel2{
+    background: url(images/masaiparkbg1.jpg) no-repeat center center/cover;
+     border: 7px solid white;
+     border-radius: 10px;
+     display: flex;
+     justify-content: center;
+     margin-left: 80px;
+     margin-right: 80px;
+     height: 380px;
+}
+.slider-carousel3{
+    background: url(images/kanhaparkbg1.jpg) no-repeat center center/cover;
+     border: 7px solid white;
+     border-radius: 10px;
+     display: flex;
+     justify-content: center;
+     margin-left: 80px;
+     margin-right: 80px;
+     height: 380px;
+}
+.slider-carousel:hover, .slider-carousel2:hover, .slider-carousel3:hover{
+    transform: scale(0.98);
+    cursor: pointer;
+}
+
+.info{
+    text-align: center;
+    margin: 30px 35px;
+    font-weight: 600;
+    font-family: 'Montserrat';
+    color: white;
+}
+.info2{
+    text-align: center;
+    margin: 30px 35px;
+    font-weight: 600;
+    font-family: 'Montserrat';
+    color: white;
+}
+.info3{
+    text-align: center;
+    margin: 30px 35px;
+    font-weight: 600;
+    font-family: 'Montserrat';
+    color: white;
+}
+
+.slider-carousel {
+    margin-top: 20px;
+    transition: all 0.3s ease;
+    border-radius: 40px;
+}
+.slider-carousel img {
+    width: 320px;
+    margin: 40px 50px;
+    transition: all 0.3s ease;
+}
+.images {
+    position: absolute;
+    display: none;
+}
+  
+.slider-carousel2 {
+    margin-top: 20px;
+    transition: all 0.3s ease;
+    border-radius: 40px;
+}
+.slider-carousel2 img {
+    width: 350px;
+    margin: 60px 60px;
+    transition: all 0.3s ease;
+}
+  
+.slider-carousel3 {
+    margin-top: 20px;
+    transition: all 0.3s ease;
+    border-radius: 40px;
+}
+.slider-carousel3 img {
+    width: 290px;
+    margin: 40px 60px;
+    transition: all 0.3s ease;
+}
+  
+.main {
+    display: block;
+}
+  
+.image-text {
+    position: absolute;
+    bottom: 0;
+    width: 103%;
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    background: rgba(0, 0, 0, 0.3);
+    height: 35px;
+}
+  
