@@ -104,23 +104,6 @@ Open the `index.html` file in your preferred browser.
 
 ---
 
-# 📸 Screenshots  
-
-Here are some previews of the **Photography World Website**:  
-
-### 🏠 Homepage  
-![Homepage](./screenshots/homepage.png)  
-
-### 🌍 Nature Gallery  
-![Nature Gallery](./screenshots/nature.png)  
-
-### ✈️ Travel Gallery  
-![Travel Gallery](./screenshots/travel.png)  
-
-### 🐾 Wildlife Gallery  
-![Wildlife Gallery](./screenshots/wildlife.png)  
-
----
 
 
 
