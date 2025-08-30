@@ -44,38 +44,6 @@ PhotoGraphyworld-main/
 │   ├── Travel/                # Travel Gallery
 │   ├── WildLife/              # Wildlife Gallery
 │   └── images/                # Project Images
-
----
-
-Ahh I see the issue 👌
-In your current README, the **“Getting Started”** section is being pulled *inside* the **Folder Structure code block** because the closing backticks (\`\`\`) for the code block are missing or misplaced.
-
-That’s why Markdown is treating everything after the tree as part of the same code block.
-
-Here’s the **correct fixed version** (notice the placement of \`\`\`):
-
-````markdown
-## 📂 Folder Structure
----
-
-```bash
-PhotoGraphyworld-main/
-│── README.md                 # Project Documentation
-│── PhotoGraphyworld/
-│   ├── index.html             # Homepage
-│   ├── about.html             # About Page
-│   ├── contact.html           # Contact Page
-│   ├── feedback.html          # Feedback Form
-│   ├── script.js              # JavaScript functionality
-│   ├── style.css              # Main stylesheet
-│   ├── style2.css             # Alternate styles
-│   ├── style3.css             # Additional styles
-│   ├── style4.css             # More custom styles
-│   ├── styles.css             # Extra CSS
-│   ├── Nature/                # Nature Gallery
-│   ├── Travel/                # Travel Gallery
-│   ├── WildLife/              # Wildlife Gallery
-│   └── images/                # Project Images
 ````
 
 ---
